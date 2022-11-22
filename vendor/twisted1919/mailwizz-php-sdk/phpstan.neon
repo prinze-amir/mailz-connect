@@ -1,0 +1,7 @@
+parameters:
+    checkMissingIterableValueType: false
+    checkGenericClassInNonGenericObjectType: false
+    excludes_analyse:
+        - examples/*
+        - vendor/*
+        - MailWizzApi/Test/*

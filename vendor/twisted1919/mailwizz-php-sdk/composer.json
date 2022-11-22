@@ -1,0 +1,30 @@
+{
+  "name": "twisted1919/mailwizz-php-sdk",
+  "type": "library",
+  "description": "Mailwizz PHP-SDK",
+  "keywords": ["mailwizz"],
+  "homepage": "https://www.mailwizz.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "twisted1919",
+      "email": "support@mailwizz.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.2"
+  },
+  "autoload": {
+    "files": ["MailWizzApi/autoload.php"]
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^0.12.9",
+    "phpunit/phpunit": "^7.5",
+    "friendsofphp/php-cs-fixer": "^2.15"
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit",
+    "fix-style": "./vendor/bin/php-cs-fixer fix .",
+    "analyse": "./vendor/bin/phpstan analyse . -c phpstan.neon --level max --memory-limit=-1"
+  }
+}

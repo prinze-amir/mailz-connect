@@ -1,0 +1,22 @@
+{
+    "name": "mailz/mailzconnect",
+    "description": "Intergrate with Mailz",
+    "authors": [
+        {
+            "name":"Prinze Amir",
+            "email":"myprinzeamir@gmail.com"
+        }
+    ],
+    "require": {
+        "twisted1919/mailwizz-php-sdk": "^1.0"
+    },
+
+    "autoload":{
+        "psr-4":{
+            "MailzWidgets\\": "MailzApp/Widgets",
+            "MailzAdmin\\": "MailzApp/Admin",
+            "MailzFrontend\\": "MailzApp/Frontend"
+        }
+    }
+
+}

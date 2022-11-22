@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a4905045547a32b64112cdb442edbc1c",
+    "packages": [
+        {
+            "name": "twisted1919/mailwizz-php-sdk",
+            "version": "v1.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twisted1919/mailwizz-php-sdk.git",
+                "reference": "3c461c102974adb1c82106e19fd5cb00ffe159b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twisted1919/mailwizz-php-sdk/zipball/3c461c102974adb1c82106e19fd5cb00ffe159b3",
+                "reference": "3c461c102974adb1c82106e19fd5cb00ffe159b3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.15",
+                "phpstan/phpstan": "^0.12.9",
+                "phpunit/phpunit": "^7.5"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "MailWizzApi/autoload.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "twisted1919",
+                    "email": "support@mailwizz.com"
+                }
+            ],
+            "description": "Mailwizz PHP-SDK",
+            "homepage": "https://www.mailwizz.com",
+            "keywords": [
+                "mailwizz"
+            ],
+            "support": {
+                "issues": "https://github.com/twisted1919/mailwizz-php-sdk/issues",
+                "source": "https://github.com/twisted1919/mailwizz-php-sdk/tree/v1.0.9"
+            },
+            "time": "2020-10-06T08:39:21+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
